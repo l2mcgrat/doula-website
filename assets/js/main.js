@@ -1,4 +1,13 @@
 
+// Set brand name globally
+const BRAND_NAME = "Camille Doula";
+
+document.addEventListener("DOMContentLoaded", () => {
+  const brandEl = document.getElementById("brandName");
+  if (brandEl) brandEl.textContent = BRAND_NAME;
+});
+
+
 // Mobile menu toggle
 const btn = document.querySelector(".menu-btn");
 const links = document.querySelector(".nav-links");
