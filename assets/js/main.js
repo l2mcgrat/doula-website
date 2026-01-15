@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   if (brandEl) brandEl.textContent = BRAND_NAME;
 });
 
+<span id="brandName">Camille Doula</span>
 
 // Mobile menu toggle
 const btn = document.querySelector(".menu-btn");
