@@ -4,18 +4,15 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+  <link rel="stylesheet" href="./assets/css/styles.css" />
   <title>Testimonials | Doula Website</title>
-  <meta name="description" content="Client stories and reviews." />
-
-  <!-- ✅ Correct CSS link -->
-  <linkets/css/styles.css
+  <meta name="description" content="Client stories and reviews." />href="./assets/css/styles.css" />
 </head>
 
 <body>
   <header class="site-header">
     <div class="container nav">
-      index.html
+      <a href="index.html">
         <span class="dot"></span>
         <span id="brandName">Camille Doula</span>
       </a>
@@ -25,11 +22,11 @@
       </button>
 
       <nav class="nav-links" aria-label="Primary">
-        <a>index.htmlHome</a>
-        <a>about.htmlAbout</a>
-        <a>services.htmlServices</a>
-        <a>testimonials.htmlTestimonials</a>
-        <a>contact.htmlContact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -48,7 +45,7 @@
 
         <div class="card">
           <!-- ✅ Correct image tag -->
-          ./assets/img/testimonial-1.jpeg
+          <img src="./assets/img/testimonial-1.jpeg" alt="Testimonial">
         </div>
 
         <div class="card">
@@ -65,12 +62,12 @@
 
   <footer>
     <div class="container">
-      <small>© <span id="year"></span> Your Brand Name. All rights reserved.</small>
+      <small>© <span id="year"></span> Camille Doula. All rights reserved.</small>
     </div>
   </footer>
 
   <!-- ✅ Correct JS file include -->
-  /assets/js/main.js</script>
+  <script src="./assets/js/main.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>

@@ -12,6 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
 // Mobile menu toggle
 const btn = document.querySelector(".menu-btn");
 const links = document.querySelector(".nav-links");
+const contactBtn = document.getElementById("contactBtn");
+if (contactBtn) {
+  contactBtn.addEventListener("click", () => {
+    window.location.href = "./contact.html";
+  });
+}
+
 
 if (btn && links) {
   btn.addEventListener("click", () => links.classList.toggle("open"));
